@@ -1,5 +1,5 @@
-IN = open('D:/lll_UTILE_lll/Bureau/Python/CardMarket/decklist_in.txt', 'r')
-OUT = open('D:/lll_UTILE_lll/Bureau/Python/CardMarket/decklist_out.txt', 'w')
+IN = open('.t/decklist_in.txt', 'r')
+OUT = open('./decklist_out.txt', 'w')
 
 L=[]
 L2=[]
