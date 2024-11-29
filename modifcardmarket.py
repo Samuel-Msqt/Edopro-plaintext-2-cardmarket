@@ -1,11 +1,9 @@
-IN = open('.t/decklist_in.txt', 'r')
+IN = open('./decklist_in.txt', 'r')
 OUT = open('./decklist_out.txt', 'w')
 
-L=[]
-L2=[]
+L = [l.strip() for l in IN]
 
-for l in IN:
-    L.append(l.strip())
+L2=[]
 
 for i in range (len(L)):
     if not(L[i]==''):
